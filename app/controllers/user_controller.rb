@@ -10,4 +10,19 @@ class UserController < ApplicationController
 		end	
 	end
 
+	def admin
+
+		if params[:password] == "Superman08@"
+			respond_to do |format|
+				format.html { redirect_to message_path}
+			end	
+		
+		end
+	end
+
+	def index
+		@users = User.all
+
+	end
+
 end

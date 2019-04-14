@@ -1,0 +1,22 @@
+<h1>MESSAGES</h1>
+<hr>
+<% @users.each do |user|%>
+<h2>Nom</h2>
+<h3><%= user.name.capitalize %></h3>
+<h2>Message</h2>
+<h3><%= user. message.capitalize %>
+	<a href="#" class="link link--style-1" data-toggle="tooltip" data-original-title="Remove message">
+		<i class="ion-trash-a"></i>
+	</a>
+</h3>
+<h2>Mail</h2>
+<h3><%= user.email %></h3>
+<h2>Envoyé le</h2>
+<h3><%= user.created_at%></h3>
+<hr>
+<%end%>
+
+
+
+
+
