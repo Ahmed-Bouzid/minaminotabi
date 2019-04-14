@@ -15865,11 +15865,11 @@ img.mfp-img {
 }
 @font-face {
   font-family: 'et-line';
-  src: url("http://bootstraplovers.com/assan3.5/et-line-font/fonts/et-line.eot");
-  src: url("http://bootstraplovers.com/assan3.5/et-line-font/fonts/et-line.eot?#iefix") format('embedded-opentype'),
-		url("http://bootstraplovers.com/assan3.5/et-line-font/fonts/et-line.woff") format('woff'),
-		url("http://bootstraplovers.com/assan3.5/et-line-font/fonts/et-line.ttf") format('truetype'),
-		url("http://bootstraplovers.com/assan3.5/et-line-font/fonts/et-line.svg#et-line") format('svg');
+  src: url("../et-line-font/fonts/et-line.eot");
+  src: url("../et-line-font/fonts/et-line.eot?#iefix") format('embedded-opentype'),
+		url("../et-line-font/fonts/et-line.woff") format('woff'),
+		url("../et-line-font/fonts/et-line.ttf") format('truetype'),
+		url("../et-line-font/fonts/et-line.svg#et-line") format('svg');
   font-weight: normal;
   font-style: normal;
 }
