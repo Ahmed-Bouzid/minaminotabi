@@ -549,6 +549,12 @@ small {
   font-weight: 400;
 }
 
+.image_price
+{
+  width: 5%; 
+  height: 5%;
+}
+
 .mark,
 mark {
   padding: .2em;
