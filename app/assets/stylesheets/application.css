@@ -23,10 +23,10 @@
  *= require ionicons.min.css
  *= require line-icons.css
  *= require line-icons-pro.css
- *= require linea-icons.css
- *= require linea-icons.css
- *= require linea-icons.css
- *= require linea-icons.css
+ *= require fonts/linea/arrows/linea-icons.css
+ *= require fonts/linea/basic/linea-icons.css
+ *= require fonts/linea/ecommerce/linea-icons.css
+ *= require fonts/linea/software/linea-icons.css
  *= require boomerang.min.css
 
  *= require_tree .
