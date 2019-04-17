@@ -1,7 +1,6 @@
 class Mailer < ApplicationMailer
 
     def send_message(user_name, user_mail, message)
-      name: params[:name], email: params[:email], message: params[:message]
       @user_name = user_name
       @user_mail = user_mail
       @message = message
