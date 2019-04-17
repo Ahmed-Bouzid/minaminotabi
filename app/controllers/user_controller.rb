@@ -6,6 +6,9 @@ class UserController < ApplicationController
 		respond_to do |format|
 			format.html { redirect_to request.referrer}
 		end	
+
+		Mailer.send_message(name: params[:name], email: params[:email], message: params[:message], ).deliver
+
 	end
 
 	def admin
