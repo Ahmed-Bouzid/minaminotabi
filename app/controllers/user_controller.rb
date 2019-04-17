@@ -9,6 +9,7 @@ class UserController < ApplicationController
 
 
 		Mailer.send_message(params[:name], params[:email], params[:message]).deliver
+		Mailer.send_notification(params[:name], params[:email], params[:message]).deliver
 
 	end
 
