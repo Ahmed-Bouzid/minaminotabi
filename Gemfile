@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.2.2'
+ruby '3.3.4'
 
 gem "font-awesome-rails"
 gem 'table_print'
@@ -9,6 +9,7 @@ gem 'mini_magick'
 gem 'dotenv-rails'
 gem 'devise'
 gem 'faker'
+gem 'webdrivers'
 gem 'rails-erd'
 gem 'stripe'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
