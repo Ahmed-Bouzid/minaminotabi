@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
+ruby '3.2.2'
 
 gem "font-awesome-rails"
 gem 'table_print'
