@@ -10,10 +10,13 @@ gem 'dotenv-rails'
 gem 'devise'
 gem 'faker'
 gem 'webdrivers'
+gem 'mutex_m'
+gem 'bigdecimal'
 gem 'rails-erd'
 gem 'stripe'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+
+gem 'rails', '~> 6.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
